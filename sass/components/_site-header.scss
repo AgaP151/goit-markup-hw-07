@@ -6,8 +6,10 @@
   background-position: center;
   background-size: cover;
   min-height: 600px;
+
   &__shade {
     background-image: url(../images/people-in-office.jpg);
+    max-width: 1600px;
     height: 100%;
     background-color: $header-background-shade-color;
     display: flex;
