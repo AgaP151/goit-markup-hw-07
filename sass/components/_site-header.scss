@@ -9,7 +9,11 @@
 
   &__shade {
     background-image: url(../images/people-in-office.jpg);
-    max-width: 1600px;
+    // max-width: 1600px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: auto;
+    width: 100%;
     height: 100%;
     background-color: $header-background-shade-color;
     display: flex;
